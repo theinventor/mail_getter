@@ -1,4 +1,16 @@
 class EmailsController < ApplicationController
+  
+  def latest
+    @last = Email.last
+    
+    if @last.subject.match("fail")
+      render text: "FAIL"
+    else
+      render text: "SUCCESS"  
+    end
+    
+  end
+  
   # GET /emails
   # GET /emails.json
   def index
