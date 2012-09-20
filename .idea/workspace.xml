@@ -22,7 +22,7 @@
       <file leaf-file-name="email.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/email.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="93" selection-start="128" selection-end="128" vertical-scroll-proportion="0.031936128">
+            <state line="1" column="80" selection-start="115" selection-end="115" vertical-scroll-proportion="0.031936128">
               <folding />
             </state>
           </provider>
@@ -483,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/email.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="93" selection-start="128" selection-end="128" vertical-scroll-proportion="0.031936128">
+        <state line="1" column="80" selection-start="115" selection-end="115" vertical-scroll-proportion="0.031936128">
           <folding />
         </state>
       </provider>
