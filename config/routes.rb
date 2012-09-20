@@ -1,6 +1,6 @@
 MailGetter::Application.routes.draw do
   resources :emails
-  get '/api/latest'
+  get '/emails/latest'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
