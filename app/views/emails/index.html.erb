@@ -18,7 +18,7 @@
     <td><%= email.to_field %></td>
     <td><%= email.from_field %></td>
     <td><%= email.headers %></td>
-    <td><%= email.body.html_safe %></td>
+    <td><%= email.body.html_safe if email.body %></td>
     <td><%= link_to 'Show', email %></td>
     <td><%= link_to 'Edit', edit_email_path(email) %></td>
     <td><%= link_to 'Destroy', email, method: :delete, data: { confirm: 'Are you sure?' } %></td>
